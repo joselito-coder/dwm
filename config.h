@@ -77,7 +77,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd }  },
 	{ ControlMask|ShiftMask,        XK_f, 	   spawn,          {.v = firefox }  },
-	{ Mod4Mask,			XK_l,	   spawn,	   {.v = lock} 	    },
+	{ Mod4Mask,			XK_l,	   spawn,	   {.v = termcmd} 	    },
 	{ MODKEY,                       XK_b,      togglebar,      {0} 	      },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
